@@ -1,0 +1,19 @@
+img {
+    height: 300px;  
+}
+
+@keyframes change { 
+    from {
+        filter: invert(0%);
+    }
+    
+    to {
+        filter: invert(100%);
+    }
+}
+
+.filtered-image {
+    animation-name: change;
+    animation-duration:2s;
+    
+}

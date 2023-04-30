@@ -1,0 +1,38 @@
+ul{
+    list-style:square;
+}
+body{
+    font-size:20px;
+}
+
+li:hover::after{
+    background-color:PaleGoldenRod;
+}
+
+li:active::after{
+    background-color: #46c70b;
+}
+
+#seong:hover::after {
+    content: "COOL DUDE!";
+}
+
+#andile:hover::after {
+    content: "COOL DUDE! PICK ME!!!";
+}
+
+#shakti:hover::after {
+    content: "ME NOW!!";
+}
+
+#seong:active::after {
+    content: "Thanks";
+}
+
+#andile:active::after {
+    content: "Thank You";
+}
+
+#shakti:active::after {
+    content: "YES";
+}

@@ -1,0 +1,16 @@
+@keyframes ohhyea {
+    from {
+        filter: blur(0px);
+    }
+    to {
+        filter: blur(10px);
+    }
+}
+
+
+img {
+    animation: ohhyea;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+}
